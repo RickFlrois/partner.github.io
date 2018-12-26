@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/header-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header-menu{
+    background-image: url('../img/header-menu-background.png');
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 146px;
+}
+
+.header-menu li{
+    list-style-type: none;
+    margin-right: 60px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu ul :last-child{
+    margin-right: 0;
+    
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.part{
+    color: #d67e2a;
+    font-size: 72px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.part1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+
+.part2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    margin-top: 18px;
+}
+
+.part3{
+    margin-top: 18px;
+}
+
+.one-block, .two-block{
+    width: 923px;
+}
+
+.one-block img{
+    float: left;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.two-block img{
+    float: right;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.about-city{
+    width: 923px;
+    margin: auto;
+}
+
+.about-city > p{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3067d5;
+    font-weight: bold;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    text-align: center;
+}
+
+.one-block{
+    margin-bottom: 44px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #d67e2a;
+}
+
+.two-block{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #d67e2a;
+    padding-bottom: 46px;
+}
+
+.catalog{
+    background-color: #3067d5;
+    padding-bottom: 1px;
+}
+
+.houses{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 18px;
+
+}
+
+.catalog > .catalog-wrap > ul > li{
+    display: inline;
+    list-style-type: none;
+}
+
+.catalog-wrap{
+    margin: auto;
+    width: 184px;
+}
+
+.container-houses{
+    width: 924px;
+    margin: auto;
+    background-color: #3067d5;
+    margin-top: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: inset 0px 0px 39px -1px rgba(0,0,0,0.75);
+    height: 540px;
+}
+
+.housesv{
+    padding-top: 33px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 29px;
+}
+
+.lcmr{
+    margin-right: 0px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    background-color: #d67e2a;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    width: 352px;
+    margin: auto;
+    text-decoration: none;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.5s ease;
+
+}
+
+.contact-head{
+    margin-top: 54px;
+    margin-bottom: 54px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #3067d5;
+    text-align: center;
+}
+
+.contact-wrapper{
+    width: 924px;
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.contacts{
+    float: left;
+    color: #3067d5;
+}
+
+.map{
+    float: right;
+}
+
+.contacts img{
+    margin-right: 4px;
+}
+
+.footer{
+    height: 32px;
+    background-color: #3067d5;
+    margin-top: 22px;
+
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
